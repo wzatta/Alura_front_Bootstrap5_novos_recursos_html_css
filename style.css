@@ -7,7 +7,7 @@
 
 body {
     font-family: "Barlow", sans-serif;
-    
+      
 }
 
 input[type="checkbox"] {
@@ -48,6 +48,13 @@ input[type="checkbox"]:focus {
     opacity: .4;
 }
 
+.botao__padrao {
+    background-color: var(--marrom-claro)!important;
+  }
+  
+  .botao__padrao:hover {
+    background-color: var(--marrom-escuro)!important;
+  }
 
 @media (min-width: 767px){
 
@@ -57,6 +64,10 @@ input[type="checkbox"]:focus {
     
     .banner02 {
         background-image: url(img/tablet/Banner2.png);
+    }
+
+    .banner03 {
+        background-image: url(img/tablet/Banner3.png);
     }
 
 
@@ -72,5 +83,10 @@ input[type="checkbox"]:focus {
     .banner02 {
         background-image: url(img/Desktop/Banner2.png);
     }
+
+    .banner03 {
+        background-image: url(img/Desktop/Banner3.png);
+    }
+
 
 }
