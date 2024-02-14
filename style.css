@@ -56,6 +56,10 @@ input[type="checkbox"]:focus {
     background-color: var(--marrom-escuro)!important;
   }
 
+  .text-justify {
+    text-align: justify !important;
+  }
+
 @media (min-width: 767px){
 
     .banner01 {
