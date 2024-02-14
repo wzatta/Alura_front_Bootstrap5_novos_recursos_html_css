@@ -22,6 +22,10 @@ input[type="checkbox"]:focus {
     outline: none;
 }
 
+.input-range::-webkit-slider-thumb {
+    background-color: var(--marrom-claro)!important;
+}
+
 .banners__box {
     width: 100%;
     height: 100vh;
