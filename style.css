@@ -7,7 +7,10 @@
 
 body {
     font-family: "Barlow", sans-serif;
-      
+}
+
+.cor-de-fundo {
+    background-color: var(--marrom-claro)!important;
 }
 
 input[type="checkbox"] {
@@ -49,7 +52,7 @@ input[type="checkbox"]:focus {
 
 
 .banners__box__text__opacity {
-    opacity: .4;
+    --bs-bg-opacity: .2!important;
 }
 
 .botao__padrao {
@@ -62,6 +65,16 @@ input[type="checkbox"]:focus {
 
   .text-justify {
     text-align: justify !important;
+  }
+
+  [data-bs-theme="dark"] {
+    color: white!important;
+    .nav-link, .card-body, .offcanvas, .accordion {
+        --bs-nav-link-color: white;
+        --bs-card-color: white;
+        --bs-offcanvas-color: white;
+        --bs-body-color: white;
+    }
   }
 
 @media (min-width: 767px){
